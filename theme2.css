@@ -1,24 +1,15 @@
-/**
- * @name Frosted Glass
- * @author Gibbu#1211
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @authorId 174868361040232448
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @website https://gibbu.me/
-*/
 
-
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 
 /* BlackBox tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 
 :root {
   /* Background image variables */
-  --background-image: url('https://r4.wallpaperflare.com/wallpaper/385/220/840/space-clouds-aurorae-dark-wallpaper-18c68c8a1ffcb7e95e90c9c252198b20.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url('https://i.imgur.com/kYW2H5C.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -65,6 +56,7 @@
   /* Do not touch */
   --update-notice-1: none;
 }
+
 
 :root {
   --version: "Frosted Glass 2.0.18";
