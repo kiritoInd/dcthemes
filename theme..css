@@ -1,5 +1,5 @@
 :root {
-	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+	--app-bg: url(https://r4.wallpaperflare.com/wallpaper/650/785/115/nebula-stars-space-green-wallpaper-5bf62cbd0391bfe96524fbf94d0cec50.jpg);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 10px;
@@ -8,7 +8,7 @@
 	--accent-hue: 156;
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%;
-	--accent-hsl: 151,71%,62%;
+	--accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
 	--accent-opacity: 1;
 	--accent-text-color: #000;
 	--alert-hue: 359;
